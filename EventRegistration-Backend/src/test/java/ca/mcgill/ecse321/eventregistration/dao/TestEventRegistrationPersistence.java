@@ -19,6 +19,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import ca.mcgill.ecse321.eventregistration.model.Event;
 import ca.mcgill.ecse321.eventregistration.model.Person;
 import ca.mcgill.ecse321.eventregistration.model.Registration;
+import ca.mcgill.ecse321.eventregistration.model.RegistrationManager;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
@@ -30,6 +31,8 @@ public class TestEventRegistrationPersistence {
 	private EventRepository eventRepository;
 	@Autowired
 	private RegistrationRepository registrationRepository;
+	@Autowired
+	private RegistrationManagerRepository registrationManagerRepository;
 
 	@AfterEach
 	public void clearDatabase() {
@@ -38,6 +41,7 @@ public class TestEventRegistrationPersistence {
 		// Then we can clear the other tables
 		personRepository.deleteAll();
 		eventRepository.deleteAll();
+		registrationManagerRepository.deleteAll();
 	}
 
 	@Test
@@ -104,6 +108,13 @@ public class TestEventRegistrationPersistence {
 		reg.setId(regId);
 		reg.setPerson(person);
 		reg.setEvent(event);
+		
+		RegistrationManager manager = new RegistrationManager();
+		manager.setId(1);
+		registrationManagerRepository.save(manager);
+		
+		reg.setRegistrationManager(manager);
+		
 		registrationRepository.save(reg);
 
 		reg = null;
