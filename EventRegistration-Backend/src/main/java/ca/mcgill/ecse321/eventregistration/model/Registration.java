@@ -26,17 +26,6 @@ public void setEvent(Event event) {
    this.event = event;
 }
 
-private RegistrationManager registrationManager;
-
-@ManyToOne(optional=false)
-public RegistrationManager getRegistrationManager() {
-   return this.registrationManager;
-}
-
-public void setRegistrationManager(RegistrationManager registrationManager) {
-   this.registrationManager = registrationManager;
-}
-
 private Person person;
 
 @ManyToOne(optional=false)

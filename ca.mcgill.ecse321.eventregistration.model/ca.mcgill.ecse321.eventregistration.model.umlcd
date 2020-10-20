@@ -73,7 +73,7 @@
     <nameVisual xmi:id="_q_jcMgi4EeuMp9VGyCERiQ" text="">
       <visualProperties xmi:id="_rDKJ0Ai4EeuMp9VGyCERiQ" position="33.0,2.0"/>
     </nameVisual>
-    <sourceRole xmi:id="_q_jcMwi4EeuMp9VGyCERiQ" aggregationKind="NONE" name="registrationManager" navigable="true">
+    <sourceRole xmi:id="_q_jcMwi4EeuMp9VGyCERiQ" aggregationKind="NONE" name="registrationManager">
       <modelElement href="ca.mcgill.ecse321.eventregistration.model.uml#_q_fx0Ai4EeuMp9VGyCERiQ"/>
       <visualProperties xmi:id="_rDJiwAi4EeuMp9VGyCERiQ" position="16.0,-43.0"/>
       <visibility xmi:id="_q_jcNAi4EeuMp9VGyCERiQ" label="+"/>
@@ -224,14 +224,6 @@
       <cardinality xmi:id="_la0oUgi4EeuMp9VGyCERiQ" label="1" max="1" min="1"/>
       <type xmi:id="_la0oUwi4EeuMp9VGyCERiQ" name="Event">
         <modelElement href="ca.mcgill.ecse321.eventregistration.model.uml#_WAMtYAi4EeuMp9VGyCERiQ"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_q_kDQAi4EeuMp9VGyCERiQ" name="registrationManager">
-      <modelElement href="ca.mcgill.ecse321.eventregistration.model.uml#_q_fx0Ai4EeuMp9VGyCERiQ"/>
-      <visibility xmi:id="_q_kDQQi4EeuMp9VGyCERiQ" label="+"/>
-      <cardinality xmi:id="_q_kDQgi4EeuMp9VGyCERiQ" label="1" max="1" min="1"/>
-      <type xmi:id="_q_kDQwi4EeuMp9VGyCERiQ" name="RegistrationManager">
-        <modelElement href="ca.mcgill.ecse321.eventregistration.model.uml#_T6gzQAi4EeuMp9VGyCERiQ"/>
       </type>
     </attributes>
     <attributes xmi:id="_Zc65oAi9EeuMp9VGyCERiQ" name="person">

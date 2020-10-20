@@ -32,7 +32,7 @@ public void setEvents(Set<Event> eventss) {
 
 private Set<Registration> registrations;
 
-@OneToMany(mappedBy="registrationManager", cascade={CascadeType.ALL})
+@OneToMany(cascade={CascadeType.ALL})
 public Set<Registration> getRegistrations() {
    return this.registrations;
 }

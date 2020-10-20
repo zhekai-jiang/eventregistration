@@ -108,13 +108,6 @@ public class TestEventRegistrationPersistence {
 		reg.setId(regId);
 		reg.setPerson(person);
 		reg.setEvent(event);
-		
-		RegistrationManager manager = new RegistrationManager();
-		manager.setId(1);
-		registrationManagerRepository.save(manager);
-		
-		reg.setRegistrationManager(manager);
-		
 		registrationRepository.save(reg);
 
 		reg = null;

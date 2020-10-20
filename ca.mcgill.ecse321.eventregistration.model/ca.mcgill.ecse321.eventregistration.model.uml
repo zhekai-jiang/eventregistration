@@ -3,9 +3,9 @@
   <uml:Model xmi:id="_dWKc8AVYEeu80MBVPUreZQ" name="ca_mcgill_ecse321_eventregistration_model">
     <eAnnotations xmi:id="_ejiPAAVYEeu80MBVPUreZQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_ejkEMAVYEeu80MBVPUreZQ" source="codegen">
-        <details xmi:id="_ejkEMQVYEeu80MBVPUreZQ" key="codegenDirectory" value="/ca.mcgill.ecse321.eventregistration.model/src-gen"/>
+        <details xmi:id="_ejkEMQVYEeu80MBVPUreZQ" key="codegenDirectory" value="/EventRegistration-Backend/src/main/java"/>
         <details xmi:id="_ejucQAVYEeu80MBVPUreZQ" key="observedFolders" value="/ca.mcgill.ecse321.eventregistration.model/src"/>
-        <details xmi:id="_ehMawAVaEeu80MBVPUreZQ" key="AssociatedSourceCode" value="/ca.mcgill.ecse321.eventregistration.model/src-gen/ca/mcgill/ecse321/eventregistration/model/Person.java;2603046926/1;/ca.mcgill.ecse321.eventregistration.model/src-gen/ca/mcgill/ecse321/eventregistration/model/RegistrationManager.java;1327202423/1;/ca.mcgill.ecse321.eventregistration.model/src-gen/ca/mcgill/ecse321/eventregistration/model/Event.java;1329943775/1;/ca.mcgill.ecse321.eventregistration.model/src-gen/ca/mcgill/ecse321/eventregistration/model/Registration.java;1094764790/1;"/>
+        <details xmi:id="_ehMawAVaEeu80MBVPUreZQ" key="AssociatedSourceCode" value="/EventRegistration-Backend/src/main/java/ca/mcgill/ecse321/eventregistration/model/RegistrationManager.java;2683009809/1;/EventRegistration-Backend/src/main/java/ca/mcgill/ecse321/eventregistration/model/Registration.java;653112542/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_4iUPwAVZEeu80MBVPUreZQ">
@@ -82,10 +82,6 @@
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lawW4Qi4EeuMp9VGyCERiQ" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lawW4gi4EeuMp9VGyCERiQ" value="1"/>
                 </ownedAttribute>
-                <ownedAttribute xmi:id="_q_fx0Ai4EeuMp9VGyCERiQ" name="registrationManager" type="_T6gzQAi4EeuMp9VGyCERiQ" association="_q_fKwAi4EeuMp9VGyCERiQ">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q_fx0Qi4EeuMp9VGyCERiQ" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q_gY4Ai4EeuMp9VGyCERiQ" value="1"/>
-                </ownedAttribute>
                 <ownedAttribute xmi:id="_Zc2oMQi9EeuMp9VGyCERiQ" name="person" type="_1oKy0AVZEeu80MBVPUreZQ" association="_Zc1aEAi9EeuMp9VGyCERiQ">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zc2oMgi9EeuMp9VGyCERiQ" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zc2oMwi9EeuMp9VGyCERiQ" value="1"/>
@@ -121,7 +117,12 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lavv0gi4EeuMp9VGyCERiQ" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_q_fKwAi4EeuMp9VGyCERiQ" name="" memberEnd="_q_fx0Ai4EeuMp9VGyCERiQ _q_gY4Qi4EeuMp9VGyCERiQ"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_q_fKwAi4EeuMp9VGyCERiQ" name="" memberEnd="_q_fx0Ai4EeuMp9VGyCERiQ _q_gY4Qi4EeuMp9VGyCERiQ">
+      <ownedEnd xmi:id="_q_fx0Ai4EeuMp9VGyCERiQ" name="registrationManager" type="_T6gzQAi4EeuMp9VGyCERiQ" association="_q_fKwAi4EeuMp9VGyCERiQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q_fx0Qi4EeuMp9VGyCERiQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q_gY4Ai4EeuMp9VGyCERiQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
     <profileApplication xmi:id="_ejl5YAVYEeu80MBVPUreZQ">
       <eAnnotations xmi:id="_ejnukAVYEeu80MBVPUreZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
