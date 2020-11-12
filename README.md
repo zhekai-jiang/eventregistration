@@ -1,2 +1,2 @@
 # eventregistration
-ECSE 321 Tutorial 2 - Event Registration Example
+ECSE 321 Tutorials - Event Registration Example
