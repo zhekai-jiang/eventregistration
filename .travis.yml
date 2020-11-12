@@ -14,8 +14,7 @@ jobs:
 
       deploy:
         provider: heroku
-        api_key:
-          secure: "CR9UAKuVqXwBbpw3sydLgNNRnF43jhz/ugCnTleowW6jEkTp+FOdF3Agj3PsnlDoMdxxhL83TY9StVh3nyydcvpfZsiO+b396BMDdH/MWBWee/oa0YnnrAUezXyXY/ADuuZncsSuBu3lUGP2UpBcD3eLRDFVXVFyWNpcvct6XK5RMNfy1RTYsGGi7iw1GVtjLCC6FkEy2u+oHYX4WRmWPyXbqmFfapc+xvaVSJj+GogeZrjOn4g7osix+CyEACt22ZeRT6yWyfo/QjsuC7KhZyM1EM5DTQfLV4nS5SpqEKeZS51HUNZTu/T4rAyh6mGhtTray5oU4ErzmgQ78UeYygigiHLneML+kcbulkfEfZwKsVQBuDg8Mmr8+m5RekjdleHQl3QJSnkHjO/agaN3u/PXrFk6iPYCZOYscNeH4+oxgx/+w4qclmeiBigNTQbG8iyJiPQ3R4xAEWaM7vr52DpFNdYr+pUfv9+nizPr40dhji4hvtwL6b1Po/xInbg6+yZOrWDxYu4PoB191FEk7CyBX/uCmTbJLJgGeh3IXWFJwliQSTqQ5MU5yEd3jqTwwrzIMueCwVHHrX2pvv/2J+5uJEeP6xQDy2V9hGdMfEYomvedjT8F1fe67c0oqP1Mft1wD4NjZaVSFedNLX5U7UfxgOaPw/aGJrOHI8qTM1c="
+        api_key: ***REMOVED***
         app: eventregistration-frontend-jzk
 
 
@@ -29,6 +28,5 @@ jobs:
 
       deploy:
         provider: heroku
-        api_key:
-          secure: "CR9UAKuVqXwBbpw3sydLgNNRnF43jhz/ugCnTleowW6jEkTp+FOdF3Agj3PsnlDoMdxxhL83TY9StVh3nyydcvpfZsiO+b396BMDdH/MWBWee/oa0YnnrAUezXyXY/ADuuZncsSuBu3lUGP2UpBcD3eLRDFVXVFyWNpcvct6XK5RMNfy1RTYsGGi7iw1GVtjLCC6FkEy2u+oHYX4WRmWPyXbqmFfapc+xvaVSJj+GogeZrjOn4g7osix+CyEACt22ZeRT6yWyfo/QjsuC7KhZyM1EM5DTQfLV4nS5SpqEKeZS51HUNZTu/T4rAyh6mGhtTray5oU4ErzmgQ78UeYygigiHLneML+kcbulkfEfZwKsVQBuDg8Mmr8+m5RekjdleHQl3QJSnkHjO/agaN3u/PXrFk6iPYCZOYscNeH4+oxgx/+w4qclmeiBigNTQbG8iyJiPQ3R4xAEWaM7vr52DpFNdYr+pUfv9+nizPr40dhji4hvtwL6b1Po/xInbg6+yZOrWDxYu4PoB191FEk7CyBX/uCmTbJLJgGeh3IXWFJwliQSTqQ5MU5yEd3jqTwwrzIMueCwVHHrX2pvv/2J+5uJEeP6xQDy2V9hGdMfEYomvedjT8F1fe67c0oqP1Mft1wD4NjZaVSFedNLX5U7UfxgOaPw/aGJrOHI8qTM1c="
+        api_key: ***REMOVED***
         app: eventregistration-backend-jzk
