@@ -1,5 +1,32 @@
-language: java
-before_install:
-- chmod +x gradlew
-script:
-- ./gradlew build
+matrix:
+  include:
+    #Frontend
+    - language: node_js
+      node_js:
+        - "10.15"
+
+      before_install:
+        - cd EventRegistration-Frontend
+        - npm install
+
+      script:
+        - npm build
+
+      deploy:
+        provider: heroku
+        api_key: ***REMOVED***
+        app: eventregistration-frontend-jzk
+
+
+    #Backend
+    - language: java
+       
+      before_install: 
+        - chmod +x gradlew
+      script:
+        - ./gradlew build
+
+      deploy:
+        provider: heroku
+        api_key: ***REMOVED***
+        app: eventregistration-backend-jzk
