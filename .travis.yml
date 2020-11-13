@@ -16,7 +16,6 @@ jobs:
         provider: heroku
         api_key: ***REMOVED***
         app: eventregistration-frontend-jzk
-        skip_cleanup: true
 
 
     #Backend
