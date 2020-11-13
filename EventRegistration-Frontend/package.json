@@ -24,9 +24,7 @@
     "shelljs": "^0.7.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "webpack-merge": "^4.1.0"
-  },
-  "devDependencies": {
+    "webpack-merge": "^4.1.0",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-loader": "^7.1.1",
