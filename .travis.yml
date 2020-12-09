@@ -1,4 +1,4 @@
-jobs:
+matrix:
   include:
     #Frontend
     - language: node_js

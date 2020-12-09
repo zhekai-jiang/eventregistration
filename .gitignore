@@ -6,8 +6,3 @@ build/
 /bin/
 
 .settings/
-
-gradle/wrapper/gradle-wrapper.properties
-gradle/wrapper/gradle-6.6.1-bin.zip
-EventRegistration-Backend/gradle/wrapper/gradle-wrapper.properties
-EventRegistration-Backend/gradle/wrapper/gradle-6.6.1-bin.zip
